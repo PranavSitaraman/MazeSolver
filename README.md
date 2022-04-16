@@ -1,1 +1,1 @@
-# Maze Solver in C++
+# Maze Solver in C
