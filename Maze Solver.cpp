@@ -99,7 +99,7 @@ void movetile(int a, int b, tile* board)
 int main()
 {
 	FILE* input = fopen("maze.txt", "r");
-    fscanf(input, "%d %d\n", &row, &column);
+	fscanf(input, "%d %d\n", &row, &column);
 	char waste[256];
 	fgets(waste, 256, input);
 	tile* board = (tile*)calloc(row * column, sizeof(tile));
